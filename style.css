@@ -143,4 +143,27 @@ footer {
 .contact-info p {
     margin-bottom: 10px;
     font-size: 18px;
+
+}
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
